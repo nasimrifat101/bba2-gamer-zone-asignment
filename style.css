@@ -1,0 +1,38 @@
+/* import */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800;900&display=swap');
+
+/* universal styles*/
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Shared styles */
+
+
+
+
+/* header section starts */
+
+/* main section starts */
+
+/* footer section starts */
+
+
+
+
+
+
+
+
+
+
+
+/* Responsiveness for Mobile starts */
+@media screen  and (max-width:676px) {
+    
+}
+
+/* Responsive ness for Tab/medium device */
+@media screen and (min-width:) and (max-width:) {
+    
+}
