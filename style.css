@@ -4,6 +4,8 @@
 /* universal styles*/
 *{
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /* Shared styles */
@@ -13,6 +15,10 @@
     -webkit-text-fill-color: transparent;
 }
 
+.s-letter{
+    color:#FF42A5;
+}
+
 .light-g{
     color: #534C64;
 }
@@ -20,31 +26,61 @@
 .heading{
     font-size: 1.3rem;
 }
-
-
-
-/* header section starts */
-
-/* main section starts */
-
-/* footer section starts */
-
-
-
-
-
-
-
-
-
-
-
-/* Responsiveness for Mobile starts */
-@media screen  and (max-width:676px) {
-    
+/* header starts here */
+header{
+    background-image: url(images/Group\ 14.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-position-x: -230px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border-bottom: 3px solid rgb(247, 247, 247);
+    height: 70px;
+    padding: 5px 120px;
 }
 
-/* Responsive ness for Tab/medium device */
-@media screen and (min-width:) and (max-width:) {
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.logo h3{
+    font-size: 2rem;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 350px;
     
+    
+}
+.links li{
+    list-style: none;
+    margin-left: 30px;
+    font-weight: 500;
+    
+}
+.links a{
+    text-decoration: none;
+    color: #534C64;
+    font-size: .9rem;
+}
+.nav-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E7E6E9;
+    border-radius: 8px;
+    padding: 8px;
+    margin-left: 20px;
+}
+.nav-button img{
+    width: 30%;
+    padding-left: 4px;
 }
