@@ -26,6 +26,13 @@
 .heading{
     font-size: 1.3rem;
 }
+.primary-btn{
+    padding: 10px 15px;
+    border-radius: 30px;
+    color: white;
+    border: none;
+
+}
 /* header starts here */
 header{
     background-image: url(images/Group\ 14.png);
@@ -83,4 +90,108 @@ header{
 .nav-button img{
     width: 30%;
     padding-left: 4px;
+}
+/* nav ends */
+/* landing content starts */
+.landing content{
+    display: flex;
+}
+.text-landing h3{
+    text-decoration: none;
+    
+}
+.landing-txt{
+    padding: 100px 120px;
+    display: flex;
+}
+.landing-txt h2{
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.landing-txt h1{
+    font-size: 3.7rem;
+}
+.list-landing{
+    display: flex;
+}
+.list-landing li{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 10px;
+    font-size: .8rem;
+    font-weight: 600;
+}
+.btn1{
+    background-color: #FF42A5;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+}
+.btn2{
+    background-color: #4EC5F7;
+}
+.container2 img{
+    width: 60%;
+    margin-left: 340px;
+    margin-top: -50px;
+}
+/* landing ends */
+/* we are gamer sec */
+.online-games{
+    background-color: #FFF9FC;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px;
+}
+.heroes img{
+    width: 100%;
+}
+.text-section{
+    text-align: right;
+}
+.text-section h3{
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+.text-section p{
+    width: 400px;
+}
+.text-section button{
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+.text-section h4{
+    font-size: .9rem;
+    margin-bottom: 10px;
+}
+/* online games section */
+.o-g-r{
+    margin: 100px 100px;
+}
+.text-con{
+    text-align: center;
+}
+.text-con h1{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+.text-con p{
+    font-size: .8rem;
+    padding-bottom: 50px;
+}
+.image-con{
+    display: flex;
+}
+.image-con img{
+   width:242px;
+   height: 284px;
+   margin-right: 20px;
+    
 }
