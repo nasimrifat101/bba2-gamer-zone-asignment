@@ -7,7 +7,19 @@
 }
 
 /* Shared styles */
+.highlight{
+    background: linear-gradient(#F948B2, #8758F1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
+.light-g{
+    color: #534C64;
+}
+
+.heading{
+    font-size: 1.3rem;
+}
 
 
 
