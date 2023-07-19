@@ -33,6 +33,7 @@
     border: none;
 
 }
+
 /* header starts here */
 header{
     background-image: url(images/Group\ 14.png);
@@ -195,6 +196,12 @@ header{
    margin-right: 20px;
     
 }
+.image-con img:hover{
+    opacity: 60%;
+    border: 3px solid #fd82ff;
+    border-radius: 15px;
+    
+}
 /* play instantly */
 .play-in{
     display: flex;
@@ -271,13 +278,14 @@ header{
     display: flex;
     margin-top: 200px;
     background-color: #F948B2;
-    height: 600px;
+    height: 500px;
     padding: 30px 100px;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 .txt-carer{
     color:white;
+    padding-left: 100px;
 }
 .txt-carer h1{
     font-size: 3rem;
@@ -295,9 +303,8 @@ header{
     font-weight: 600;
 }
 .carer-img img{
-   
-    padding-left: 100px;
-    width: 120%;
+   height: 500px;
+   padding-left: 30px;
 }
 .list{
     display: flex;
@@ -318,4 +325,271 @@ header{
     font-size: .9rem;
     padding-bottom: 10px;
     font-weight: 700;
+}
+/* mini sec */
+.suggestion{
+    background-color: #d1d1d145;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 20px 100px;
+    justify-content: center;
+    align-items: center;
+}
+.s-card{
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    margin: 10px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 50px;
+    gap: 10px;
+}
+/* hover */
+.s-card:hover{
+    border: #F948B2 1px solid;
+    color: #F948B2;
+    
+}
+.s-card img{
+    height: 40px;
+}
+.s-card h3{
+    font-size: .7rem;
+}
+/* footer */
+footer{
+    background-color: #0B0223;
+    height: 400px;
+    color: white;
+    padding: 30px 100px;
+}
+.lol{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.some-l{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+
+}
+.some-l a{
+    text-decoration: none;
+    color: white;
+}
+.last{
+    font-size: .8rem;
+   
+}
+.some-ic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+   
+}
+.some-ic a{
+    text-decoration: none;
+}
+.some-ic img{
+    height: 30px;
+}
+.priv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 20px;
+}
+.priv a{
+    text-decoration: none;
+}
+.priv p{
+    font-size: .8rem;
+}
+.copy{
+    text-align: center;
+    font-size: .8rem;
+}
+
+/* displayt none */
+footer {
+    display: none;
+}
+
+.career, .suggestion{
+    display: none;
+}
+
+/* responsive */
+@media screen and (max-width:768px) {
+    header{
+      background-image: none;
+      
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: #FFFFFF;
+        border-bottom: 3px solid rgb(247, 247, 247);
+        flex-direction: column;
+        margin-top: 40px;
+        height: 200px;
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+        gap: 20px;
+        justify-content: center;
+
+    }
+    .links li{
+      margin: 0;
+      padding: 0;
+    }
+    .nav-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #E7E6E9;
+        width: 170px;
+        border-radius: 8px;
+        padding: 8px;
+        
+    }
+
+    .landing-txt{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 30px;
+      
+    }
+    .container2 img {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+        align-items: center;
+        justify-content: center;    
+    }   
+
+    .container{
+        background-image: url(images/Group\ 14.png);
+        background-size: contain;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .online-games{
+        display: flex;
+        flex-direction: column;
+        margin-top: 550px;
+        padding: 10px 20px;
+        background-color: white;
+        margin-bottom: 100px;
+    }
+    .text-section{
+        text-align: center;
+    }
+    .o-g-r{
+        margin: 10px 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .image-con {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 70px;
+    }
+    
+    .text-con p {
+        padding-bottom: 10px;
+    }
+
+    .card{
+        margin-bottom: 30px;
+    }
+    .play-in{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 20px;
+        margin-bottom: 300px;
+
+    }
+    .text-c{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .text-c h1{
+        font-size: 2.5rem;
+    }
+    .text-c p{
+        padding: 0 20px;
+        font-size: .9rem;
+    }
+    .image-c img{
+        position: absolute;
+        top: 3500px;
+        width: 70%;
+        left: 90px;
+    }
+    .image-c .kitty {
+        position: relative;
+        width: 40%;
+        left: -5px;
+        top: 220px;
+     }
+
+     .play-inn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center ;
+        margin: 20px 20px;
+        padding: 0;
+        margin-bottom: 300px;
+     }
+
+     .text-cc{
+        text-align: center;
+        margin: 0px 20px;
+
+     }
+     .text-cc P{
+        margin: 10px 20px;
+        padding: 0;
+     }
+
+     .image-cc img{
+        position: absolute;
+        top: 4250px;
+        width: 60%;
+     }
+     .image-cc  .kittyy {
+        position: relative;
+        width: 40%;
+        left: 180px;
+        top: 180px;
+
+     }
+
+
+
+
+
+
 }
