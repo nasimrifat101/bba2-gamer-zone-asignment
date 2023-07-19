@@ -417,14 +417,6 @@ footer{
     font-size: .8rem;
 }
 
-/* displayt none */
-footer {
-    display: none;
-}
-
-.career, .suggestion{
-    display: none;
-}
 
 /* responsive */
 @media screen and (max-width:768px) {
@@ -586,10 +578,90 @@ footer {
         top: 180px;
 
      }
+     .career{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 20px 20px;
+        height: 800px;
+        margin-bottom:0px;
+     }
+     .txt-carer{
+        justify-content: center;
+        align-items: center;
+        padding: 40px 20px;
+     }
+     
+    .txt-carer h1{
+        font-size: 2rem;
+    }
+    .txt-carer p{
+        width: 400px;
+        font-size: .9rem;
+    }
+    .list{
+        gap: 27px;
+    }
+    .carer-img img {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .suggestion{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 
 
+    footer {
+        background-color: #0B0223;
+        height: 500px;
+        color: white;
+        padding: 30px 20px;
+    }
+    .some-l {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        margin-bottom: 50px;
+    }
+    .lol img{
+        width: 10%;
+    }
+    .lol h2{
+        font-size: 1rem;
+    }
+    .last{
+        padding: 0 30px;
+        font-size: .6rem;
+    }
+    .some-ic{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:20px;
+        margin-left: 60px;
+    }
+    .some-ic img{
+        height:20px;
+    }
+    .priv{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        
+    } 
 
+    .priv p{
+        font-size: .6rem;
+        text-align: center;
+    } 
 
-
-
+    .copy{
+        margin-top: 50px;
+        font-size: .6rem;
+    }
 }
