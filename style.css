@@ -195,3 +195,127 @@ header{
    margin-right: 20px;
     
 }
+/* play instantly */
+.play-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin: 0px 100px;
+}
+.text-c{
+    text-align: right;
+    margin-right: 300px;
+    margin-bottom: -150px;
+    
+}
+.text-c h1{
+    font-size: 2.4rem;
+    padding-bottom: 20px;
+}
+.text-c p{
+    padding-left: 200px;
+}
+.image-c img{
+    width: 30%;
+    top: 1700px;
+    right: 110px;
+    position:absolute;
+}
+.image-c .kitty{
+    width: 90%;
+    position: relative;
+    top: 240px;
+    right: 260px;
+
+    
+}
+
+/* same second layout */
+.play-inn{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 100px;
+}
+.text-cc{
+    text-align: left;
+    margin-left: 350px;
+    margin-top: 400px;
+    
+}
+.text-cc h1{
+    font-size: 2.4rem;
+    padding-bottom: 20px;
+}
+.text-cc p{
+    padding-right: 200px;
+}
+.image-cc img{
+    width: 30%;
+    top: 2200px;
+    position:absolute;
+}
+.image-cc .kittyy{
+    width: 100%;
+    position: relative;
+    top: 290px;
+    left: 290px;
+   
+
+    
+}
+/* next section */
+.career{
+    display: flex;
+    margin-top: 200px;
+    background-color: #F948B2;
+    height: 600px;
+    padding: 30px 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+.txt-carer{
+    color:white;
+}
+.txt-carer h1{
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+.txt-carer p{
+    width: 500px;
+    padding-bottom: 20px;
+    font-size: 1rem;
+
+}
+.txt-carer button{
+    text-align: left;
+    color: #F948B2;
+    font-weight: 600;
+}
+.carer-img img{
+   
+    padding-left: 100px;
+    width: 120%;
+}
+.list{
+    display: flex;
+    gap: 120px;
+}
+.left ul li{
+    list-style: none;
+    margin-bottom: 5px;
+    font-size: .9rem;
+    padding-bottom: 10px;
+    font-weight: 700;
+
+}
+.right ul li{
+    list-style: none;
+    text-align: right;
+    margin-bottom: 5px;
+    font-size: .9rem;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
