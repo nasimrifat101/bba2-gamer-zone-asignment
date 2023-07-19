@@ -326,6 +326,11 @@ header{
     padding-bottom: 10px;
     font-weight: 700;
 }
+
+.txt-carer button{
+    background-color: #4EC5F7;
+    color: #FFFFFF;
+}
 /* mini sec */
 .suggestion{
     /* background-color: #d1d1d145;
