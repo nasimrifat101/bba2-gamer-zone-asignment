@@ -187,7 +187,7 @@ header{
     font-size: .8rem;
     padding-bottom: 50px;
 }
-.image-con{
+/* .image-con{
     display: flex;
 }
 .image-con img{
@@ -201,7 +201,71 @@ header{
     border: 3px solid #fd82ff;
     border-radius: 15px;
     
-}
+} */
+.container {
+    position: relative;
+    width: 50%;
+    
+  }
+  
+  .image-cons{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-left: -40px;
+    gap: 20px;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-left: 50px;
+    
+  
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 45%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+   
+  }
+  
+  .container:hover .image {
+    opacity: .2;
+    border: 3px solid rgb(255, 0, 166);
+    border-radius: 20px;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  .bx-play-circle{
+      width: 200px;
+  }
+  .text i{
+     font-size: 40px;
+     height: 50px;
+  }
+
+
 /* play instantly */
 .play-in{
     display: flex;
@@ -379,6 +443,17 @@ header{
 .s-card h3{
     font-size: .7rem;
 }
+/* online */
+.s-para{
+    font-size: .8rem;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.text a{
+    text-decoration: none;
+    font-weight: 800;
+    color: #0B0223;
+}
 /* footer */
 footer{
     background-color: #0B0223;
@@ -482,7 +557,7 @@ footer{
     .landing-txt{
         display: flex;
         flex-direction: column-reverse;
-        padding: 0;
+        padding:0;
         align-items: center;
         justify-content: center;
         margin: 20px 30px;
@@ -496,13 +571,13 @@ footer{
         justify-content: center;    
     }   
 
-    .container{
+    .container-f{
         background-image: url(images/Group\ 14.png);
         background-size: contain;
         align-items: center;
         justify-content: center;
         text-align: center;
-        padding: 50px;
+        padding: 60px;
         margin-top: 50px;
         margin-bottom: 50px;
     }
@@ -522,10 +597,19 @@ footer{
         align-items: center;
         justify-content: center;
     }
-    .image-con {
-        display: flex;
-        flex-direction: column;
-        margin: 10px 70px;
+    .image-cons {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            margin-left: -40px;
+            gap: 20px;
+            flex-direction: column;
+        }
+    .text {
+        color: black;
+        font-size: 16px;
+        padding: 0;
     }
     
     .text-con p {
@@ -556,7 +640,7 @@ footer{
     }
     .image-c img{
         position: absolute;
-        top: 3500px;
+        top: 3300px;
         width: 70%;
         left: 90px;
     }
@@ -589,7 +673,7 @@ footer{
 
      .image-cc img{
         position: absolute;
-        top: 4250px;
+        top: 4050px;
         width: 60%;
      }
      .image-cc  .kittyy {
@@ -750,7 +834,7 @@ footer{
           justify-content: center;    
       }   
   
-      .container{
+      .container-f{
           background-image: url(images/Group\ 14.png);
           background-size: contain;
           align-items: center;
@@ -797,6 +881,9 @@ footer{
           margin-bottom: 400px;
   
       }
+      .text{
+        padding: 0;
+      }
       .text-c{
           margin: 0;
           padding: 0;
@@ -811,15 +898,15 @@ footer{
       }
       .image-c img{
           position: absolute;
-          top: 3600px;
-          width: 50%;
+          top: 3200px;
+          width: 55%;
           left: 90px;
       }
       .image-c .kitty {
           position: relative;
           width: 50%;
-          left: 160px;
-          top: 320px;
+          left: 200px;
+          top: 380px;
        }
   
        .play-inn{
@@ -844,7 +931,7 @@ footer{
   
        .image-cc img{
           position: absolute;
-          top: 4350px;
+          top: 3950px;
           width: 60%;
           
        }
