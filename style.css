@@ -1041,4 +1041,105 @@ footer{
           font-size: .6rem;
       }
   }
+  /* responsive laptop */
+  @media screen and (min-width:993px) and (max-width:1024px) {
+    header{
+        height: 70vh;
+       
+    }
+    .links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+    }
+    .container2 img {
+        width: 60%;
+        margin-left: 250px;
+        margin-top: -50px;
+    }
+    .image-c img {
+        width: 30%;
+        top: 1570px;
+        right: 110px;
+        position: absolute;
+    }
+    .image-c .kitty {
+        width: 90%;
+        position: relative;
+        top: 220px;
+        right: 260px;
+    }
+    .image-cc img {
+        left: 164px;
+        width: 30%;
+        top: 2100px;
+        position: absolute;
+    }
+    .image-cc .kittyy {
+        width: 100%;
+        position: relative;
+        top: 320px;
+        left: 290px;
+    }
+    .carer-img img {
+        height: 350px;
+        padding-left: 0px;
+    }
+
+
+
+
+
+
+
+
+
+  }
+
+  /* resposive laptop LARGE */
+  @media screen and (min-width:1025px) and (max-width:1440px) {
+    .container2 img {
+        width: 60%;
+        margin-left: 350px;
+        margin-top: -63px;
+    }
+    .container-f{
+        padding: 80px 50px;
+    }
+    header {
+        background-image: url(images/Group\ 14.png);
+        background-repeat: no-repeat;
+        height: 65vh;
+        width: 100%;
+        background-position-x: -230px;
+    }
+    .image-c img {
+        width: 30%;
+        top: 1850px;
+        right: 110px;
+        position: absolute;
+    }
+    .image-c .kitty {
+        width: 90%;
+        position: relative;
+        top: 283px;
+        right: 302px;
+    }
+    .image-cc img {
+        width: 30%;
+        top: 2327px;
+        position: absolute;
+    }
+    
+
+
+
+
+
+
+
+
+
+  }
 
